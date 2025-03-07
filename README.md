@@ -1,1 +1,1 @@
-Easy C# SMTP client
+Small C# SMTP client.
