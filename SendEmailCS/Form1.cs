@@ -27,7 +27,7 @@ namespace SendEmailCS{
             var smtpClient = new SmtpClient("smtp.gmail.com")
             {
                 Port = 587,
-                Credentials = new NetworkCredential("username33@gmail.com", textBoxAPIKEY.Text),
+                Credentials = new NetworkCredential("username33", textBoxAPIKEY.Text), //username Without @gmail hardcoded.
                 EnableSsl = true,
             }; //end obj
        
